@@ -78,5 +78,5 @@ function moveBall2(){
   var velocity2 = 20+Math.random()*5;
 }
 
-setInterval(moveBall, 20);
+setInterval(moveBall, 60);
 setInterval(moveBall2, 1000);
